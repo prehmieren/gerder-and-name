@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ชื่อนี้เพศไหนกันนะ ?</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2545/2545910.png">
+</head>
+
+<body>
+    <h1>ชื่อนี้(น่าจะ)เพศไหนกันนะ ?</h1>
+    <div class="container">
+        <form id="form">
+            <input type="text" id="input">
+            <div class="buttons">
+                <button id="btn" type="submit">ตรวจสอบ</button>
+                <button id="reset">รีเซ็ต</button>
+            </div>
+
+        </form>
+
+        <div class="data" hidden>
+            <h2>ชื่อ: <span id="name"></span></h2>
+            <h2>เพศ: <span id="gender"></span></h2>
+            <h2>ความเป็นไปได้: <span id="probability"></span></h2>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
